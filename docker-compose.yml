@@ -21,7 +21,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: admin
       MYSQL_PASSWORD: admin
-      MYSQL_DATABASE: duenio_mascota
+      MYSQL_DATABASE: duenio_mascot
     restart: always
     healthcheck:
       test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
