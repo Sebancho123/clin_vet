@@ -10,4 +10,3 @@ com\duenio\mascota\dto\MascotaDTO.class
 com\duenio\mascota\model\Duenio.class
 com\duenio\mascota\service\DuenioService.class
 com\duenio\mascota\controller\MascotaController.class
-.netbeans_automatic_build
