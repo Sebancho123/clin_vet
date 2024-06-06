@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  mascota1:
+  mascota:
     build: mascota
     mem_limit: 812m
     ports:
