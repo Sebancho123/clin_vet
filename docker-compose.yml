@@ -3,7 +3,7 @@ version: '3'
 services:
   mascota:
     build: .
-    mem_limit: 812m
+    mem_limit: 1112m
     ports:
       - "8080:8080"
     environment:
@@ -21,7 +21,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: admin
       MYSQL_PASSWORD: admin
-      MYSQL_DATABASE: duenio_mascota
+      MYSQL_DATABASE: duenio_masco
     restart: always
     healthcheck:
       test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
